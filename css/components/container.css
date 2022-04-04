@@ -1,0 +1,26 @@
+.container {
+    width: 700px;
+    margin: 30px auto;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 0;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.container a {
+    margin-right: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 550px) {
+    .container {
+        width: 400px;
+    }
+}
