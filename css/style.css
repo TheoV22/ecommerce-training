@@ -4,6 +4,7 @@
 @import url("components/container.css");
 @import url("components/button.css");
 @import url("components/card.css");
+@import url("components/sidebar.css");
 
 /* Import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
@@ -14,27 +15,6 @@ body {
     margin: 0px auto;
     font-size: 15px;
     background-color: #DFDFDE;
-}
-
-.sidebar {
-    position: fixed;
-    background-color: rgba(0, 0, 0, 0.1);
-    width: 200px;
-    left: 0;
-    top: 0;
-    bottom: 0;
-}
-.sidebar ul {
-    list-style: none;
-    padding-left: 5px
-}
-
-.sidebar li {
-    margin: 10px;
-}
-
-.sidebar a {
-    color: #30AADD;
 }
 
 .page-content {
