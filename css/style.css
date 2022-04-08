@@ -4,16 +4,21 @@
 @import url("components/container.css");
 @import url("components/button.css");
 @import url("components/card.css");
+@import url("components/sidebar.css");
 
 /* Import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
 
-/* Import fonts */
+/* General CSS */
 body {
     font-family: "Nunito", serif;
     margin: 0px auto;
     font-size: 15px;
     background-color: #DFDFDE;
+}
+
+.page-content {
+    margin-left: 200px;
 }
 
 h1, h2, h3 {
