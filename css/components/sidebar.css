@@ -12,9 +12,12 @@
 }
 
 .sidebar li {
-    margin: 10px;
+    margin: 25px 10px;
 }
 
 .sidebar a {
-    color: #30AADD;
+    color: white;
+    background-color: #30AADD;
+    padding: 10px;
+    border-radius: 6px;
 }
