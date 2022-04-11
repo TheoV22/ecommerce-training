@@ -1,20 +1,24 @@
 function chooseFormation() {
-    document.getElementById("formation-choice").style.display = "block";
+  if (document.getElementById("formation-choice").style.display == "none") {
+    document.getElementById("formation-choice").style.display = "block"
+  } else {
+    document.getElementById("formation-choice").style.display = "none"
+  }
 };
   
   // Close the dropdown menu if the user clicks outside of it
-  window.onclick = function(event) {
+window.onclick = function(event) {
     if (!event.target.matches('.button-blue')) {
       var dropdowns = document.getElementsByClassName("dropdown-content");
       var i;
       for (i = 0; i < dropdowns.length; i++) {
         var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
+        if (openDropdown.style.display = "block") {
+          openDropdown.style.display = "none";
         }
       }
     }
-  };
+};
 
 function showHTML() {
   if (document.getElementById("HTML-section").style.display !== "none") {
