@@ -1,6 +1,6 @@
 function chooseFormation() {
-    document.getElementById("formation-choice").classList.toggle("show");
-  }
+    document.getElementById("formation-choice").style.display = "block";
+};
   
   // Close the dropdown menu if the user clicks outside of it
   window.onclick = function(event) {
@@ -14,16 +14,27 @@ function chooseFormation() {
         }
       }
     }
-  }
+  };
 
 function showHTML() {
-  document.getElementById("HTML-section").style.display = "block";
-}
+  if (document.getElementById("HTML-section").style.display !== "none") {
+    document.getElementById("HTML-section").style.display = "none"
+  } else {
+    document.getElementById("HTML-section").style.display = "block"
+  }};
 
-function showCSS() {
-  document.getElementById("CSS-section").style.display = "block";
-}
+function showCSS() {  
+  if (document.getElementById("CSS-section").style.display !== "none") {
+    document.getElementById("CSS-section").style.display = "none"
+  } else {
+    document.getElementById("CSS-section").style.display = "block"
+  }
+};
 
 function showJavaScript() {
-  document.getElementById("JavaScript-section").style.display = "block";
+  if (document.getElementById("JavaScript-section").style.display !== "none") {
+    document.getElementById("JavaScript-section").style.display = "none"
+  } else {
+    document.getElementById("JavaScript-section").style.display = "block"
+  }
 }
