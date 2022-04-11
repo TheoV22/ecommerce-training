@@ -1,3 +1,4 @@
+/* Basic button */
 .button-blue {
     background-color: #30AADD;
     padding: 15px 20px;
@@ -10,8 +11,11 @@
     background-color:black;
 }
 
-.button-dropdown {
 
+/* Dropdown button */
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
 
 .dropdown-content {
@@ -21,6 +25,12 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 12px;
+    display: block;
 }
 
 .show {
