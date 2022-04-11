@@ -25,14 +25,14 @@
             <div class="dropdown">
                 <button class="button-blue" onclick="chooseFormation()">Choose your formation</button>
                 <div class="dropdown-content" id="formation-choice">
-                    <a href="#HTML-section">HTML</a>
-                    <a href="#CSS-section">CSS</a>
-                    <a href="#JavaScript-section">JavaScript</a>
+                    <a href="#HTML-section" onclick="showHTML()">HTML</a>
+                    <a href="#CSS-section" onclick="showCSS()">CSS</a>
+                    <a href="#JavaScript-section" onclick="showJavaScript()">JavaScript</a>
                 </div>
                 
             </div>
 
-            <div class="card-white" id="HTML-section">
+            <div class="card-white" id="HTML-section" style="display: none">
                 <h1>HTML</h1>
                 <h2>Description</h2>
                 <p>Learn HTML</p>
@@ -41,7 +41,7 @@
                 <a href="#" class="button-blue">Access to this training</a>
             </div>
 
-            <div class="card-white" id="CSS-section">
+            <div class="card-white" id="CSS-section" style="display: none">
                 <h1>CSS</h1>
                 <h2>Description</h2>
                 <p>Learn CSS</p>
@@ -50,7 +50,7 @@
                 <a href="#" class="button-blue">Access to this training</a>
             </div>
 
-            <div class="card-white" id="JavaScript-section">
+            <div class="card-white" id="JavaScript-section" style="display: none">
                 <h1>JavaScript</h1>
                 <h2>Description</h2>
                 <p>Learn JavaScript</p>

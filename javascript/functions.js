@@ -15,3 +15,15 @@ function chooseFormation() {
       }
     }
   }
+
+function showHTML() {
+  document.getElementById("HTML-section").style.display = "block";
+}
+
+function showCSS() {
+  document.getElementById("CSS-section").style.display = "block";
+}
+
+function showJavaScript() {
+  document.getElementById("JavaScript-section").style.display = "block";
+}
