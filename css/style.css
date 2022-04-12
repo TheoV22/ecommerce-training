@@ -5,6 +5,7 @@
 @import url("components/button.css");
 @import url("components/card.css");
 @import url("components/sidebar.css");
+@import url("components/list.css");
 
 /* Import fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
@@ -30,3 +31,4 @@ h1, h2, h3 {
 a {
     text-decoration: none;
 }
+
