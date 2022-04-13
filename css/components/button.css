@@ -14,8 +14,8 @@
 }
 
 .button-blue:hover {
-    background-color:rgba(0,0,0,0.7);
-    border-color: rgba(0,0,0,0.8);
+    background-color:rgba(50,50,50);
+    border-color: rgba(30,30,30);
 }
 
 
