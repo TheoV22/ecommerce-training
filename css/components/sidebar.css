@@ -8,16 +8,26 @@
 }
 .sidebar ul {
     list-style: none;
-    padding-left: 5px
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .sidebar li {
-    margin: 25px 10px;
-}
-
-.sidebar a {
-    color: white;
+    margin: 20px auto;
     background-color: #30AADD;
     padding: 10px;
     border-radius: 6px;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-width: 5px;
+    border-bottom-style: ridge ;
+}
+
+.sidebar li:hover {
+    opacity: 0.6;
+}
+
+
+.sidebar a {
+    color: white;
+    padding: 10px 20px;
 }
