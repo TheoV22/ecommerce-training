@@ -14,8 +14,7 @@
 }
 
 .button-blue:hover {
-    background-color:rgba(50,50,50);
-    border-color: rgba(30,30,30);
+    opacity: 0.8;
 }
 
 
@@ -44,7 +43,7 @@
   top: 5px;
   left: 4px;
   box-shadow: 0 0 0 rgba(2, 79, 245, .3);
-  background-color: cornflowerblue;
+  background-color: #51a6ca;
   border-color: cornflowerblue;
   color: #fff;
   text-decoration:none
