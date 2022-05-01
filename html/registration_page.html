@@ -7,6 +7,7 @@
         <title>Expert web development trainings to empower your businesses</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="../css/style.css">
+        <script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery/jquery-1.8.3.min.js"></script>
     </head>
 
     <!-- Content of the page -->
@@ -18,6 +19,7 @@
                 <li><a href="registration_page.html">Register/Sign-in</a></li>
                 <li><a href="ourTrainings_page.html">Our trainings</a></li>
               </ul>
+            <a id="btn-small">Click to hide</a>
         </div>
         
     </head>  
@@ -72,7 +74,11 @@
     </form>   
             </body>  
             </html>  
-
+        <script type="text/javascript">
+        $("#btn-small").on("click", function () {
+          $(".sidebar").toggleClass("big-page");
+        });
+        </script>
     </body>
 
 </html>
