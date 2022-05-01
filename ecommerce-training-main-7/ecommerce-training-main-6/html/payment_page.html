@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <!-- Intelligence of the page -->
+    <head>
+        <title>Expert web development trainings to empower your businesses</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+
+    <!-- Content of the page -->
+    <body>
+        <div class="sidebar">
+            <ul>
+                <li><a href="../index.html">Home Page</a></li>
+                <li><a href="about_us.html">About us</a></li>
+                <li><a href="registration_page.html">Register/Sign-in</a></li>
+                <li><a href="ourTrainings_page.html">Our trainings</a></li>
+                <li><a href="payment_page.html">Payment</a></li>
+              </ul>
+        </div>
+        
+        <div class="wrapper">
+            <h2>Payment Form</h2>
+            <form>
+                <h4>Account</h4>
+                <div class="input-group">
+                    <div class="input-box">
+                        <input text="text"  placeholder="Full name" required class="name">
+                        <i class="fa fa-user icon"></i>
+                    </div>
+                    <div class="input-box">
+                        <input text="text" placeholder="username" required class="name">
+                        <i class="fa fa-user icon"></i>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="email" placeholder="email" required class="name">
+                        <i class="fa fa-envelope icon"></i>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <h4> Date of birth </h4>
+                        <input text="text" placeholder="DD" class="dob">
+                        <input text="text" placeholder="MM" class="dob">
+                        <input text="text" placeholder="YYYY" class="dob">
+                    </div>
+                    <div class="input-box">
+                        <h4>Gender</h4>
+                        <input type="radio" name="gender" checked id="b1" class="radio">
+                        <label for="b1">Male</label>
+                        <input type="radio" name="gender" class="radio" id="b2">
+                        <label for="b2">Female</label>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <h4>Payment Details</h4>
+                        <input type="radio" name="pay" id="bc1" checked class="radio">
+                        <label for="bc1">
+                            <span>
+                                <i class="fa fa-cc-visa">Credit card</i>
+                            </span>
+                        </label>
+                        <input type="radio" name="pay" id="bc2" class="radio">
+                        <label for="bc2">
+                            <span>
+                                <i class="fa fa-cc-paypal">Paypal</i>
+                            </span>
+                        </label>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="tel" class="name" placeholder="card number" required>
+                        <i class="fa fa-credit-card icon"></i>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="tel" required placeholder="Card CVC">
+                        <i class="fa fa-user icon"></i>
+                    </div>
+                    <div class="input-box">
+                        <select>
+                            <option>01 Dec</option>
+                            <option>02 Dec</option>
+                            <option>03 Dec</option>
+                        </select>
+                        <select>
+                            <option>2020</option>
+                            <option>2021</option>
+                            <option>2022</option>  
+                        </select>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <button type="submit">Pay now</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </body>
+
+</html>
