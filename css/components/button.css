@@ -113,7 +113,7 @@
 }
   
 .button-smooth:hover::before, .button-smooth:focus::before {
-  opacity: 1;
+  opacity: 0;
   animation: none;
 }
   
