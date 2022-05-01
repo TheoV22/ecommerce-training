@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <!-- Intelligence of the page -->
+    <head>
+        <title>Expert web development trainings to empower your businesses</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="../javascript/functions.js"></script>
+    </head>
+
+    <!-- Content of the page -->
+    <body>
+        <div class="sidebar">
+            <ul>
+                <li><a href="../index.html">Home Page</a></li>
+                <li><a href="about_us.html">About us</a></li>
+                <li><a href="registration_page.html">Register/Sign-in</a></li>
+                <li><a href="ourTrainings_page.html">Our trainings</a></li>
+                <li><a href="payment_page.html">Payment</a></li>
+              </ul>
+        </div>
+        
+        <div class="container">
+            <div class="dropdown">
+                <button class="button-blue" onclick="chooseFormation()">Choose your formation</button>
+                <div class="dropdown-content" id="formation-choice" style="display: none">
+                    <a href="#HTML-section" onclick="showHTML()">HTML</a>
+                    <a href="#CSS-section" onclick="showCSS()">CSS</a>
+                    <a href="#JavaScript-section" onclick="showJavaScript()">JavaScript</a>
+                </div>
+                
+            </div>
+
+            <div class="card-white" id="HTML-section" style="display: none">
+                <h1>HTML</h1>
+                <h2>Description</h2>
+                <p>Learn HTML</p>
+                <h2>Learning objective</h2>
+                <p>create websites</p>
+                <a href="payment_page.html" class="button-blue">Access to this training</a>
+            </div>
+
+            <div class="card-white" id="CSS-section" style="display: none">
+                <h1>CSS</h1>
+                <h2>Description</h2>
+                <p>Learn CSS</p>
+                <h2>Learning objective</h2>
+                <p>decorate websites</p>
+                <a href="payment_page.html" class="button-blue">Access to this training</a>
+            </div>
+
+            <div class="card-white" id="JavaScript-section" style="display: none">
+                <h1>JavaScript</h1>
+                <h2>Description</h2>
+                <p>Learn JavaScript</p>
+                <h2>Learning objective</h2>
+                <p>animate websites</p>
+                <a href="payment_page.html" class="button-blue">Access to this training</a>
+            </div>
+
+        </div>
+
+
+    </body>
+
+</html>
