@@ -241,3 +241,11 @@ hr {
 .registerbtn:hover {  
     opacity: 1;  
   }  
+
+.sidebar{ width :  200px ;
+        position :  absolute ;  
+        left :0 ;  top :  0 ;  
+        height :  100% ;  
+        overflow :  auto ;
+        transition:  all  0.2 s ease  0 s;}
+.big-page.sidebar{ width :  0px;}
